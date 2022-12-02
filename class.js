@@ -1,4 +1,5 @@
 /** Class representing a user.
+ * @module User
  * @example
  * const ihor = new User("Ihor")
  * ihor.sayHello()
@@ -28,9 +29,5 @@ class User {
     return greetingsResult
   }
 }
-
-const ihor = new User("Ihor")
-
-ihor.sayHello()
 
 export default User
